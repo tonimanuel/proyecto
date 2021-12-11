@@ -10,7 +10,6 @@
 	$idUsuario = $_GET['idUsuario'];
 	$consulta = enseñarusuarioporid($conexion,$idUsuario);
 	$fila = mysqli_fetch_assoc($consulta);
-
 ?>
 <!DOCTYPE html>
 <html>

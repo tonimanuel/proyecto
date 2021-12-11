@@ -1,6 +1,7 @@
  <?php
 
 //Funcion que nos permite añadir un producto en nuestra base de datos
+ 
 
     function insertarproducto($conexion,$idvideojuego,$idplataforma,$stock,$precio){
         $consulta = "INSERT INTO `tiendaonline`.`productos` (`IdVideojuego`, `IdPlataforma`, `Stock`, `Precio`) VALUES ('$idvideojuego', '$idplataforma', '$stock', '$precio')";

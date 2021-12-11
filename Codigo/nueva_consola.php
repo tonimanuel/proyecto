@@ -6,6 +6,7 @@
 //Nos conectamos a la base de datos
 	$conexion = conectar(false);
 
+
 //Cogemos las variables que vamos a usar
 	$nombre = $_POST['nombre'];
 	$lanzamiento = $_POST['lanzamiento'];	

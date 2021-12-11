@@ -11,6 +11,7 @@ session_start();
 	$consulta = enseñarjuegoporid($conexion,$idVideojuego);
 	$fila = mysqli_fetch_assoc($consulta);
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>

@@ -6,6 +6,7 @@
     $idVideojuego = $_GET["idVideojuego"];
 ?>
 
+
 <!DOCTYPE html>
 <html lang="es-ES">
     <head>

@@ -9,6 +9,7 @@
 	$consulta = filtrarproductoo($conn,$idproductos);
 	$fila = mysqli_fetch_assoc($consulta);
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>

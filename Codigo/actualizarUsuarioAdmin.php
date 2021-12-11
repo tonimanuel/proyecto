@@ -1,5 +1,4 @@
 <?php  
-
 //Cogemos los archivos que vamos a necesitar
 	require 'bd/conectorBD.php';
 	require 'DAOusuarios.php';

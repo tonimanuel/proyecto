@@ -8,6 +8,7 @@
         return $resultado;
     }
 
+
 //Funcion que nos permite borrar una consola en nuestra base de datos
     function borrarconsola($conexion,$idconsola){
         $consulta = "DELETE FROM `tiendaonline`.`plataforma` WHERE (`idPlataforma` = '$idconsola')";

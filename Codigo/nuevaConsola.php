@@ -19,7 +19,6 @@
 
 	<center>
 
-
 <div class="card" id="card-login-grande" style="width: 18rem;">
 	<div class="card-body justify-content-center" id="card-html">
 	<form action="nueva_consola.php" method="POST" enctype="multipart/form-data">

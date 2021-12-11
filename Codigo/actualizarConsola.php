@@ -12,6 +12,7 @@ session_start();
 	$consulta = enseñarconsolaporid($conexion,$idconsola);
 	$fila = mysqli_fetch_assoc($consulta);
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>

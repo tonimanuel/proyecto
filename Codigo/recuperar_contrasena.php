@@ -10,7 +10,6 @@ require 'DAOusuarios.php';
   $conexion = conectar(false);
   $consulta = recuperar($conexion, $dni);
 
-
 //Recorre la consulta
     if(mysqli_num_rows($consulta) == 1){
 
