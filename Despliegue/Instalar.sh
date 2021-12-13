@@ -12,7 +12,7 @@ PASSDB="debianDB"
 HOST=$(hostname -I)
 WWW="/var/www/html/"
 # Nombre del fichero de los datos en el proyecto 
-DATOS="bd.sql"
+DATOS="tiendaonline.sql"
 BBDD="tiendaonline"
 
 # Se toman los parámetros como USER y PASS de la BBDD
