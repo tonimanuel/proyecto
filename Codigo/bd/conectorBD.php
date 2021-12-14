@@ -2,16 +2,15 @@
 
 //Funcion para conectarnos a la base de datos
     function conectar($esRemota){
-
         if($esRemota){
             $servidor = "...";
         }else{
             $servidor = "localhost:3306";
         }
         //usuario
-        $usuario = "root";
+        $usuario = "debianDB";
         //contraseña
-        $password = "";
+        $password = "debianDB";
         //base de datos
         $BD = "tiendaonline";
 
