@@ -14,7 +14,6 @@
         //base de datos
         $BD = "tiendaonline";
 
-        
 
         $conectar = mysqli_connect($servidor, $usuario, $password, $BD);
 
