@@ -85,7 +85,7 @@ session_start();
 					//Nos conectamos a la base de datos
 					$conexion = conectar(false);
 					//Usamos la funcion para poder mostrar los datos de nuestra base de datos en los carruseles
-					$consulta = enseñarVideojuego($conexion);
+					$consulta = ensenarVideojuego($conexion);
 					$i = 0;
 					//Muestra en bucle todos los campso de la consulta
 					while($fila = mysqli_fetch_assoc($consulta)) {
