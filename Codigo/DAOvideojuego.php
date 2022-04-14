@@ -2,15 +2,15 @@
 
 //Funcion que nos permite añadir un juego en nuestra base de datos
 
-    function insertarjuego($conexion,$titulo,$compañia,$publicacion,$descripcion,$imagen){
-        $consulta = "INSERT INTO `tiendaonline`.`videojuego` (`Titulo`, `Compañia`, `Publicacion`, `Descripcion`, `Imagen`) VALUES ('$titulo', '$compañia', '$publicacion', '$descripcion', '$imagen')";
+    function insertarjuego($conexion,$titulo,$compania,$publicacion,$descripcion,$imagen){
+        $consulta = "INSERT INTO `tiendaonline`.`videojuego` (`Titulo`, `Compania`, `Publicacion`, `Descripcion`, `Imagen`) VALUES ('$titulo', '$compania', '$publicacion', '$descripcion', '$imagen')";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
     }
 
 //Funcion que nos permite modificar un juego en nuestra base de datos
-    function modificarjuego($conexion,$titulo,$compañia,$publicacion,$descripcion,$idVideojuego,$imagen){
-        $consulta = "UPDATE `tiendaonline`.`videojuego` SET `Titulo` = '$titulo', `Compañia` = '$compañia', `Publicacion` = '$publicacion', `Descripcion` = '$descripcion', `Imagen` = '$imagen' WHERE (`idVideojuego` = '$idVideojuego')";
+    function modificarjuego($conexion,$titulo,$compania,$publicacion,$descripcion,$idVideojuego,$imagen){
+        $consulta = "UPDATE `tiendaonline`.`videojuego` SET `Titulo` = '$titulo', `Compania` = '$compania', `Publicacion` = '$publicacion', `Descripcion` = '$descripcion', `Imagen` = '$imagen' WHERE (`idVideojuego` = '$idVideojuego')";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
     }
@@ -37,7 +37,7 @@
     }
 
 //Funcion usada para mostrar un juego en especifico y para la funcion de editar sus roles
-    function enseñarjuegoporid($conexion,$idVideojuego){
+    function ensenarjuegoporid($conexion,$idVideojuego){
         $consulta = "SELECT * FROM `videojuego` WHERE (`idVideojuego` = '$idVideojuego')";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
