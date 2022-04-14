@@ -31,7 +31,7 @@
 
 //Funcion que nos permite enseñar los juegos de nuestra base de datos en el carrusel de forma aleatoria y con un tamaño de 4
     function ensenarVideojuego($conexion){
-        $consulta = "SELECT idVideojuego, Imagen FROM Videojuego ORDER BY rand() LIMIT 4";
+        $consulta = "SELECT idVideojuego, Imagen FROM videojuego ORDER BY rand() LIMIT 4";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
     }
