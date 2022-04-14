@@ -39,7 +39,7 @@ session_start();
 					//Nos conectamos a la base de datos
 					$conexion = conectar(false);
 					//Usamos la funcion para poder mostrar los datos de nuestra base de datos en los carruseles
-					$consulta = enseñarPlataforma($conexion);
+					$consulta = ensenarPlataforma($conexion);
 							
 					$i = 0;
 
