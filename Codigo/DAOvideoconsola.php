@@ -30,7 +30,7 @@
     }
 
 //Funcion que nos permite enseñar las consolas de nuestra base de datos en el carrusel de forma aleatoria y con un tamaño de 4
-    function enseñarPlataforma($conexion){
+    function ensenarPlataforma($conexion){
         $consulta = "SELECT idPlataforma, Imagen FROM Plataforma ORDER BY rand() LIMIT 4";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
