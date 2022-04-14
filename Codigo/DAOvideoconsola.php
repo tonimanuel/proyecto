@@ -37,7 +37,7 @@
     }
 
 //Funcion que nos permite mostrar los datos de una consola por su id
-     function enseñarconsolaporid($conexion,$idPlataforma){
+     function ensenarconsolaporid($conexion,$idPlataforma){
         $consulta = "SELECT * FROM `plataforma` WHERE (`idPlataforma` = '$idPlataforma')";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
