@@ -38,7 +38,7 @@
 	$idPlataforma = $_GET['idPlataforma'];
 
 //usamos una funcion que nos permite mostrar las consolas de la base de datos
-	$result = enseñarconsolaporid($conexion,$idPlataforma);
+	$result = ensenarconsolaporid($conexion,$idPlataforma);
 
 //recorre la consulta y los muestra
 
